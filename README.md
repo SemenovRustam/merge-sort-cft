@@ -18,9 +18,9 @@
 
 Примеры использования: 
 
-- java -jar test-cft-jar-with-dependencies.jar -a -s out.txt 1.txt 2.txt 3.txt (Сортировка строк по возрастанию)
+- java -jar test-cft.jar -a -s out.txt 1.txt 2.txt 3.txt (Сортировка строк по возрастанию)
 
 
-- java -jar test-cft-jar-with-dependencies.jar -d -i out.txt 1.txt 2.txt 3.txt (Сортировка чисел по убыванию)
+- java -jar test-cft.jar -d -i out.txt 1.txt 2.txt 3.txt (Сортировка чисел по убыванию)
 
 
