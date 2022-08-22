@@ -57,7 +57,7 @@ public class SorterService {
 
         for (int i = 0; i < inputFileNames.size(); i++) {
             try {
-                inputStreamArray[i] = new FileInputStream("../" + inputFileNames.get(i));
+                inputStreamArray[i] = new FileInputStream(inputFileNames.get(i));
             } catch (FileNotFoundException e) {
                 log.error(e.getMessage());
             }
